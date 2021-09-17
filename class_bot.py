@@ -33,14 +33,14 @@ class_schedule = {
 #obs position: x=352, y=752
 #zoom position: x=423, y=748
 def record_class():
-    pyautogui.click(x=352, y=752) #open obs
+    pyautogui.click(x=309, y=752) #open obs
     time.sleep(3)
     pyautogui.click(x=1038, y=549) #start recording
     time.sleep(1)
     pyautogui.click(x=1009, y=80) #minimize obs
 
 def enter_class(id, password):
-    pyautogui.click(x=425, y=752) #open zoom
+    pyautogui.click(x=348, y=752) #open zoom
     time.sleep(4)
     pyautogui.click(x=705, y=288) #click join
     time.sleep(2)
@@ -96,7 +96,7 @@ def class_day():
             password = class_schedule['thursday']['sd']['password']
             record_class()
             enter_class(id, password)
-        elif day==1 and hour==18 and 0<=minute<=20:
+        elif day==3 and hour==18 and 0<=minute<=20:
             id = class_schedule['thursday']['mgmt']['id']
             password = class_schedule['thursday']['mgmt']['password']
             enter_class(id, password)
@@ -107,7 +107,7 @@ def class_day():
             id = class_schedule['monday']['data_bases']['id']
             password = class_schedule['monday']['data_bases']['password']
             enter_class(id, password)
-        elif day==2 and hour==22 and 0<=minute<=59:
+        elif day==2 and hour==14 and 0<=minute<=20:
             id = class_schedule['wednesday']['data_bases']['id']
             password = class_schedule['wednesday']['data_bases']['password']
             enter_class(id, password)
