@@ -16,19 +16,19 @@ class_schedule = {
         }
     },
     'tuesday':{
-        'calculus':{'id': '98133934689', 'password':'298168'},
-        'statistics': {'id': '97679365106', 'password': '024235'},
-        'sd': {'id': '94642010910', 'password': '835549'},
-        'mgmt': {'id': '97420559935', 'password': '457032'}
+        'calculus':{'id': '98133934689', 'password':'XXXXXX'},
+        'statistics': {'id': '97679365106', 'password': 'XXXXXX'},
+        'sd': {'id': '94642010910', 'password': 'XXXXXX'},
+        'mgmt': {'id': '97420559935', 'password': 'XXXXXX'}
     },
     'wednesday':{
-        'data_bases':{'id': '93129044428', 'password': '126577'}
+        'data_bases':{'id': '93129044428', 'password': 'XXXXXX'}
     },
     'thursday':{
-        'calculus':{'id': '94371380155', 'password':'085507'},
-        'statistics': {'id': '94973659096', 'password': '847620'},
-        'sd': {'id': '93162782858', 'password': '765683'},
-        'mgmt': {'id': '94595978284', 'password': '507140'}
+        'calculus':{'id': '94371380155', 'password':'XXXXXX'},
+        'statistics': {'id': '94973659096', 'password': 'XXXXXX'},
+        'sd': {'id': '93162782858', 'password': 'XXXXXX'},
+        'mgmt': {'id': '94595978284', 'password': 'XXXXXX'}
     }
 }
 
